@@ -50,7 +50,14 @@ Claude Code 在运行过程中会读取并上报设备标识符（硬件 UUID、
 
 ### 安装
 
-**一键安装（推荐）：**
+**npm 安装（推荐）：**
+
+```bash
+npm install -g claude-cac
+cac setup
+```
+
+**一键脚本安装：**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/nmhjklnm/cac/master/install.sh | bash
@@ -180,7 +187,14 @@ All `claude` invocations (including Agent subprocesses) are intercepted. Zero in
 
 ### Installation
 
-**One-line install (recommended):**
+**npm install (recommended):**
+
+```bash
+npm install -g claude-cac
+cac setup
+```
+
+**One-line script install:**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/nmhjklnm/cac/master/install.sh | bash
