@@ -1,0 +1,42 @@
+{
+  "name": "claude-cac",
+  "version": "1.0.0",
+  "description": "Claude Code Cloak — Privacy cloak + CLI proxy for Claude Code. Zero source invasion.",
+  "bin": {
+    "cac": "cac"
+  },
+  "files": [
+    "cac",
+    "scripts/postinstall.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "privacy",
+    "proxy",
+    "telemetry",
+    "fingerprint",
+    "cloak",
+    "cli"
+  ],
+  "author": "nmhjklnm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmhjklnm/cac.git"
+  },
+  "homepage": "https://github.com/nmhjklnm/cac#readme",
+  "bugs": {
+    "url": "https://github.com/nmhjklnm/cac/issues"
+  },
+  "os": ["darwin", "linux"],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
