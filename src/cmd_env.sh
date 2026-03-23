@@ -54,8 +54,8 @@ cmd_add() {
         [[ "$country" == "US" || "$country" == "GB" || "$country" == "AU" || "$country" == "CA" ]] && lang="en_US.UTF-8" || lang="en_US.UTF-8"
         echo "$(_green "✓ $tz")"
     else
-        tz="America/New_York"
-        lang="en_US.UTF-8"
+        tz="Asia/Singapore"
+        lang="en_SG.UTF-8"
         echo "$(_yellow "⚠ 获取失败，默认 $tz")"
     fi
     echo
